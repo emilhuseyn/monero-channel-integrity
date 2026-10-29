@@ -22,14 +22,15 @@ This matters for two concrete reasons.
 **A download-server compromise is not hypothetical for Monero.** On 18 November 2019 the CLI
 binaries served from getmonero.org were replaced with builds that sent the wallet seed to an
 attacker; it was caught because a user checked the hash and it did not match. Today Homebrew and
-Flathub refresh their pins with bots that download the new file from getmonero.org and record
-whatever hash it has (BrewTestBot, flatpak-external-data-checker). If the same compromise landed at
-release time, both would pin the attacker's file and ship it as a normal update. Scoop takes its
+Flathub update their pins through bots that download the new file from getmonero.org and propose
+whatever hash it has (BrewTestBot, flatpak-external-data-checker); a reviewer then merges the change
+without any signature check. If the same compromise landed at release time, both would most likely
+pin the attacker's file and ship it as a normal update. Scoop takes its
 hash from the GitHub release page, a second origin that would catch a website-only compromise, but
 that text is not signed either. Nothing in these pipelines compares the pin with the signed list.
 
 **Lag strands users on old code, and the next network upgrade will make it worse.** Ubuntu 22.04
-LTS, still in standard support, ships `monero` 0.17.2.0 through apt, a version that cannot follow
+LTS, still a supported release, ships `monero` 0.17.2.0 through apt (universe), a version that cannot follow
 the network since the 2022 v0.18 upgrade. Ubuntu 24.04 LTS ships 0.18.3.1. nixpkgs unstable ships
 CLI 0.18.5.1 and so misses the 0.18.5.3 "highly recommended" release and the 0.18.5.4 fix to DNSSEC
 validation for checkpoints, blocklists and update checks. The FCMP++ upgrade will require every node
@@ -141,7 +142,7 @@ About 150 hours over 12 weeks (roughly 12 hours a week next to my day job), at U
 | End of month 2 | Historical dataset and write-up published | USD 2,000 |
 | End of month 3 | Monitor live with status page, upstream changes and update requests sent, final report | USD 2,000 |
 
-Payment in XMR.
+Payment by USD bank wire, or in XMR or BTC if that is simpler for the Fund.
 
 ## 7. About me
 
