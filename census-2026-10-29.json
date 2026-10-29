@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-29",
+  "latest": {
+    "monero": [
+      "0.18.5.4",
+      "2026-10-17"
+    ],
+    "monero-gui": [
+      "0.18.5.4",
+      "2026-10-17"
+    ]
+  },
+  "rows": [
+    {
+      "channel": "Arch Linux extra/monero",
+      "version": "0.18.5.4",
+      "ships": "source (git tag)",
+      "trust": "makepkg verifies the tag signature (validpgpkeys)",
+      "pin_check": "n/a (signature checked at build)",
+      "current": "yes"
+    },
+    {
+      "channel": "Arch Linux extra/monero-gui",
+      "version": "0.18.5.4",
+      "ships": "source (git tag)",
+      "trust": "makepkg verifies the tag signature (validpgpkeys)",
+      "pin_check": "n/a (signature checked at build)",
+      "current": "yes"
+    },
+    {
+      "channel": "Guix monero",
+      "version": "0.18.5.4",
+      "ships": "source (git tag)",
+      "trust": "NAR hash of the tag, no signature check",
+      "pin_check": "n/a (not a release artefact)",
+      "current": "yes"
+    },
+    {
+      "channel": "Homebrew formula monero",
+      "version": "0.18.5.4",
+      "ships": "source tarball",
+      "trust": "sha256 pin, last version bump by BrewTestBot",
+      "pin_check": "MATCH",
+      "current": "yes"
+    },
+    {
+      "channel": "Homebrew cask monero-wallet",
+      "version": "0.18.5.4",
+      "ships": "upstream binary (dmg)",
+      "trust": "sha256 pin, bot-bumped",
+      "pin_check": "MATCH",
+      "current": "yes"
+    },
+    {
+      "channel": "Flathub org.getmonero.Monero",
+      "version": "0.18.5.4",
+      "ships": "source tarball",
+      "trust": "sha256 pin, refreshed by flatpak-external-data-checker",
+      "pin_check": "MATCH",
+      "current": "yes"
+    },
+    {
+      "channel": "Scoop extras/monero",
+      "version": "0.18.5.4",
+      "ships": "upstream binary (GUI zip)",
+      "trust": "hash pin, autoupdate scrapes it from https://github.com/monero-project/monero-gui/releases/tag/v<v>",
+      "pin_check": "MATCH",
+      "current": "yes"
+    },
+    {
+      "channel": "Docker simple-monerod",
+      "version": "0.18.5.4",
+      "ships": "source (git clone, sethforprivacy/simple-monerod)",
+      "trust": "commit hash checked at build, tag signature not checked",
+      "pin_check": "MATCH (tag commit)",
+      "current": "yes"
+    },
+    {
+      "channel": "nixpkgs monero-cli",
+      "version": "0.18.5.1",
+      "ships": "source (GitHub tag)",
+      "trust": "NAR hash of the tag, no signature check",
+      "pin_check": "n/a (not a release artefact)",
+      "current": "no"
+    },
+    {
+      "channel": "nixpkgs monero-gui",
+      "version": "0.18.5.2",
+      "ships": "source (GitHub tag)",
+      "trust": "NAR hash of the tag, no signature check",
+      "pin_check": "n/a (not a release artefact)",
+      "current": "no"
+    },
+    {
+      "channel": "FreeBSD ports monero-cli",
+      "version": "0.18.4.3",
+      "ships": "source (GitHub tarball)",
+      "trust": "distinfo sha256, no signature check",
+      "pin_check": "n/a (not a release artefact)",
+      "current": "no"
+    },
+    {
+      "channel": "Chocolatey monero",
+      "version": "0.18.3.4",
+      "ships": "upstream binary",
+      "trust": "not inspected yet",
+      "pin_check": "not inspected yet",
+      "current": "no"
+    },
+    {
+      "channel": "AUR monero-gui-static-bin",
+      "version": "0.18.5.0",
+      "ships": "upstream binary (GUI tarball)",
+      "trust": "sha256 pin, user-maintained",
+      "pin_check": "not in current signed list",
+      "current": "no"
+    },
+    {
+      "channel": "Debian forky",
+      "version": "0.18.5.3",
+      "ships": "source (Debian package)",
+      "trust": "Debian archive signature over Debian's own build",
+      "pin_check": "n/a",
+      "current": "no"
+    },
+    {
+      "channel": "Debian sid",
+      "version": "0.18.5.3",
+      "ships": "source (Debian package)",
+      "trust": "Debian archive signature over Debian's own build",
+      "pin_check": "n/a",
+      "current": "no"
+    },
+    {
+      "channel": "Debian trixie-backports",
+      "version": "0.18.5.3",
+      "ships": "source (Debian package)",
+      "trust": "Debian archive signature over Debian's own build",
+      "pin_check": "n/a",
+      "current": "no"
+    },
+    {
+      "channel": "Debian trixie",
+      "version": "0.18.4.0",
+      "ships": "source (Debian package)",
+      "trust": "Debian archive signature over Debian's own build",
+      "pin_check": "n/a",
+      "current": "no"
+    },
+    {
+      "channel": "Debian bookworm",
+      "version": "0.18.0.0",
+      "ships": "source (Debian package)",
+      "trust": "Debian archive signature over Debian's own build",
+      "pin_check": "n/a",
+      "current": "no"
+    },
+    {
+      "channel": "Debian bullseye",
+      "version": "0.17.2.0",
+      "ships": "source (Debian package)",
+      "trust": "Debian archive signature over Debian's own build",
+      "pin_check": "n/a",
+      "current": "no"
+    }
+  ]
+}
